@@ -28,8 +28,13 @@ To run the Courier Tracking System locally, follow these steps:
 
   npm install
 
-3.Start the application:
+3.Start the server:
+  cd server
+  node index.js
 
+4.Start the application:
+  cd client
+  npm install
   npm start
 
 Usage
