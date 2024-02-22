@@ -1,0 +1,13 @@
+.login-form-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("C:\Users\sasir\courier-tracking-system\images\pexels-marta-wave-5876801.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }

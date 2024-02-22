@@ -1,0 +1,119 @@
+.admin-home-page {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .tracking-number-input{
+    margin-top: 2%;
+  }
+  .input-container {
+    margin-bottom: 20px;
+  }
+  .c{
+    margin-left: 5%;
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #4CAF50;
+  }
+  
+  .input-field {
+    width: 50%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .primary-button {
+    width: 50%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .secondary-button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    background-color: #ddd;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .secondary-button:hover {
+    background-color: #ccc;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info-header {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .info-item {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .edit-delete-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-delete-buttons button {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .edit-delete-buttons .edit-button {
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .edit-delete-buttons .delete-button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 768px) {
+    .input-field {
+      width: auto;
+    }
+  }
+  
