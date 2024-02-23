@@ -37,6 +37,15 @@ To run the Courier Tracking System locally, follow these steps:
   npm install
   npm start
 
+Credentials 
+
+  user login
+   username:sasi
+   password:1234
+  admin login
+   username: admin
+   password:1234
+
 Usage
 
 Navigate to the application in your web browser.
